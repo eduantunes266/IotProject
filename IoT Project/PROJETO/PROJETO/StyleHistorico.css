@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #eb6d24; /* Cor do texto */
+    font-family: Verdana, sans-serif; /* Fonte legível */
+    font-weight: 700; /* Negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.592); /* Adiciona contorno ao texto */
+    margin-bottom: 40px; /* Adiciona espaçamento abaixo do título */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button, select {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.back-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.back-button:hover {
+    background: #0056b3;
+}
+body {
+    background: url('imagens/historicoBack.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Opcao-container {
+    background: rgba(0, 0, 0, 0.162);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: rgb(18, 17, 17);
+    text-align: start;
+}
+
+.Navbar-container {
+    background: rgba(0, 0, 0, 0.293);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    color: rgb(18, 17, 17);
+    text-align: start;
+}
+
+.btn-outline-danger {
+    background-color: rgb(189, 34, 34); /* Define o fundo vermelho */
+    color: white; /* Define a cor do texto como branco */
+    border: none; /* Remove a borda */
+}
+
+.btn-outline-danger:hover {
+    background-color: darkred; /* Fundo vermelho escuro ao passar o mouse */
+    color: white; /* Mantém o texto branco */
+}
+
+.nav-link {
+    background-color: rgb(95, 199, 61); /* Fundo verde */
+    color: white !important; /* Texto branco */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 5px 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-right: 20px; /* Adiciona espaçamento à direita entre os botões */
+}
+
+
+.nav-link:hover {
+    background-color: darkgreen; /* Fundo verde escuro ao passar o mouse */
+    color: white !important; /* Mantém o texto branco */
+}
+
+.navbar-brand {
+    margin-right: 30px; /* Adiciona espaço à direita do texto "Praia Segura" */
+}

@@ -1,0 +1,49 @@
+
+
+/* css do Background */
+body {
+    background: url('imagens/jota.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.nav-link {
+    background-color: rgb(95, 199, 61); /* Fundo verde */
+    color: white !important; /* Texto branco */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 5px 10px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-right: 20px; /* Adiciona espaçamento à direita entre os botões */
+}
+
+.cor {
+    color: #eb6d24; /* Cor do texto */
+    font-family: Verdana, sans-serif; /* Fonte legível */
+    font-weight: 700; /* Negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.268); /* Adiciona contorno ao texto */
+    margin-right: 30px;
+}
+
+.bold-text {
+    font-weight: bold;
+  }
+
+a:hover {
+    color: green; /* Define a cor verde ao passar o mouse */
+    text-decoration: none; /* Remove o sublinhado (opcional) */
+}
+ 
+.sensor{
+    background-color: #93fff6  ;
+}
+
+.atuador{
+    background-color: #fab906 ;
+}
+
+
+/* Muda o aspeto na tabela */
+.text-bg-warning {
+    background-color: #ffc107 !important; /* Cor de fundo amarela */
+    color: white !important; /* Torna o texto branco */
+}
